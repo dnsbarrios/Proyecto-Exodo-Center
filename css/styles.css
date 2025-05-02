@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+/* Navar */
+.container-fluid {
+  height: 80px;
+}
+.escudo {
+  height: 100px;
+}
+
+.estiloBarra {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.redes {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.contenedorPrincipal {
+  display: flex;
+  width: auto;
+  height: 100%;
+}
+
+.contenedorTestimonios {
+  background-color: antiquewhite;
+  border-radius: 2%;
+  text-align: center;
+  color: black;
+  display: flex;
+}
+/* Footer */
+#footer {
+  height: 80px;
+}
+.escudo-footer {
+  height: 100px;
+}
+
+.carousel-img {
+  height: 1200px;
+  object-fit: cover;
+}
